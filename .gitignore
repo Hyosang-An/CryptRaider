@@ -1,0 +1,48 @@
+# ========== Unreal Engine ==========
+# Binary 및 빌드 산출물
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# 프로젝트 사용자 권한/로그
+*.suo
+*.user
+*.userprefs
+*.log
+
+# Visual Studio
+.vs/
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Rider / IntelliJ
+.idea/
+*.iobj
+*.idb
+
+# VSCode
+.vscode/
+
+# Xcode
+*.xcworkspace
+xcuserdata/
+*.xccheckout
+*.xcodeproj
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Git LFS 관리 대상 (예: 대용량 에셋)
+# *.uasset filter=lfs diff=lfs merge=lfs -text
+# *.umap   filter=lfs diff=lfs merge=lfs -text
+
+# ========== Optional: 커스텀 폴더 ==========
+# Plugins/MyPlugin/Intermediate/
+# Plugins/MyPlugin/Binaries/
